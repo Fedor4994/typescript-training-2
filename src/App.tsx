@@ -98,6 +98,7 @@ function App() {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: currentWish.color,
+        transition: "background-color 1s",
       }}
     >
       <div className="card">
