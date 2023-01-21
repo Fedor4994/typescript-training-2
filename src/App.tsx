@@ -104,20 +104,22 @@ function App() {
       <div className="card">
         <h1 className="wish">{currentWish.wish}</h1>
         <img className="youare" src={currentWish.youare} alt="father" />
-        <img
-          className="heart"
-          src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Beating_Heart.gif"
-          alt="heart"
-        />
-        <button
-          className="button"
-          style={{
-            backgroundColor: currentWish.color,
-          }}
-          onClick={handleClick}
-        >
-          Ты самый...
-        </button>
+        <div className="buttons">
+          <button
+            className="button"
+            style={{
+              backgroundColor: currentWish.color,
+            }}
+            onClick={handleClick}
+          >
+            Ты самый...
+          </button>
+          <img
+            className="heart"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Beating_Heart.gif"
+            alt="heart"
+          />
+        </div>
       </div>
     </div>
   );
