@@ -35,7 +35,7 @@ function App() {
     },
 
     {
-      wish: "Ты самый добрый, хоть порой выглядишь очень грозно😇",
+      wish: "Самый добрый, хоть порой выглядишь очень грозно😇",
       youare:
         "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/4/10/1334073131620/45-Darth-Vader---Ice-Crea-2lg.jpg?width=700&quality=85&auto=format&fit=max&s=34d30210ca58c689fbd5dce6e1ae0006",
     },
@@ -45,7 +45,7 @@ function App() {
         "https://juststickers.in/wp-content/uploads/2018/04/the-codefather.png",
     },
     {
-      wish: "Ты самый крутой геймер😋",
+      wish: "Самый крутой геймер😋",
       youare:
         "https://images.fineartamerica.com/images/artworkimages/medium/3/dad-level-unlocked-vintage-funny-video-gamer-myloot-transparent.png",
     },
@@ -53,6 +53,16 @@ function App() {
       wish: "Самый умный, и с тобой когда угодно можно улететь куда то к звездам😍",
       youare:
         "https://i.fbcd.co/products/original/db-rocketdad-1-0884dad19ef112d40887c1c4bdc1fb3ecf871be2cb864c95ab97a362d5fcc4ad.jpg",
+    },
+    {
+      wish: "Самый лучший лидер, ты наш Леонардо😎",
+      youare:
+        "https://pngimg.com/uploads/ninja_turtles/ninja_turtles_PNG29.png",
+    },
+    {
+      wish: "Ну или шкипер😂",
+      youare:
+        "https://www.pngall.com/wp-content/uploads/2/Penguins-of-Madagascar-PNG-Download-Image.png",
     },
     {
       wish: "Самый лучший папа на свете🥳",
@@ -83,7 +93,7 @@ function App() {
       youare: wishes[currentNumber].youare,
       color: colors[randomNumber],
     });
-    if (currentNumber < 7) {
+    if (currentNumber < 9) {
       setCurrentNumber((prev) => prev + 1);
     } else {
       setCurrentNumber(0);
